@@ -46,10 +46,10 @@ Default to "balanced" if not set.
 
 **Model lookup table:**
 
-| Agent | quality | balanced | budget |
-|-------|---------|----------|--------|
-| gsd-planner | opus | opus | sonnet |
-| gsd-executor | opus | sonnet | sonnet |
+| Agent | quality | balanced | budget | basic |
+|-------|---------|----------|--------|-------|
+| gsd-planner | opus | opus | sonnet | haiku |
+| gsd-executor | opus | sonnet | sonnet | haiku |
 
 Store resolved models for use in Task calls below.
 

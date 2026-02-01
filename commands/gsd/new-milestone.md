@@ -134,11 +134,11 @@ Default to "balanced" if not set.
 
 **Model lookup table:**
 
-| Agent | quality | balanced | budget |
-|-------|---------|----------|--------|
-| gsd-project-researcher | opus | sonnet | haiku |
-| gsd-research-synthesizer | sonnet | sonnet | haiku |
-| gsd-roadmapper | opus | sonnet | sonnet |
+| Agent | quality | balanced | budget | basic |
+|-------|---------|----------|--------|-------|
+| gsd-project-researcher | opus | sonnet | haiku | haiku |
+| gsd-research-synthesizer | sonnet | sonnet | haiku | haiku |
+| gsd-roadmapper | opus | sonnet | sonnet | haiku |
 
 Store resolved models for use in Task calls below.
 

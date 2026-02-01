@@ -31,10 +31,10 @@ Default to "balanced" if not set.
 
 **Model lookup table:**
 
-| Agent | quality | balanced | budget |
-|-------|---------|----------|--------|
-| gsd-planner | opus | opus | sonnet |
-| gsd-plan-checker | sonnet | sonnet | haiku |
+| Agent | quality | balanced | budget | basic |
+|-------|---------|----------|--------|-------|
+| gsd-planner | opus | opus | sonnet | haiku |
+| gsd-plan-checker | sonnet | sonnet | haiku | haiku |
 
 Store resolved models for use in Task calls below.
 </step>

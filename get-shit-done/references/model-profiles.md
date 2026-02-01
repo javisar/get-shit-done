@@ -4,19 +4,19 @@ Model profiles control which Claude model each GSD agent uses. This allows balan
 
 ## Profile Definitions
 
-| Agent | `quality` | `balanced` | `budget` |
-|-------|-----------|------------|----------|
-| gsd-planner | opus | opus | sonnet |
-| gsd-roadmapper | opus | sonnet | sonnet |
-| gsd-executor | opus | sonnet | sonnet |
-| gsd-phase-researcher | opus | sonnet | haiku |
-| gsd-project-researcher | opus | sonnet | haiku |
-| gsd-research-synthesizer | sonnet | sonnet | haiku |
-| gsd-debugger | opus | sonnet | sonnet |
-| gsd-codebase-mapper | sonnet | haiku | haiku |
-| gsd-verifier | sonnet | sonnet | haiku |
-| gsd-plan-checker | sonnet | sonnet | haiku |
-| gsd-integration-checker | sonnet | sonnet | haiku |
+| Agent | `quality` | `balanced` | `budget` | `basic` |
+|-------|-----------|------------|----------|---------|
+| gsd-planner | opus | opus | sonnet | haiku |
+| gsd-roadmapper | opus | sonnet | sonnet | haiku |
+| gsd-executor | opus | sonnet | sonnet | haiku |
+| gsd-phase-researcher | opus | sonnet | haiku | haiku |
+| gsd-project-researcher | opus | sonnet | haiku | haiku |
+| gsd-research-synthesizer | sonnet | sonnet | haiku | haiku |
+| gsd-debugger | opus | sonnet | sonnet | haiku |
+| gsd-codebase-mapper | sonnet | haiku | haiku | haiku |
+| gsd-verifier | sonnet | sonnet | haiku | haiku |
+| gsd-plan-checker | sonnet | sonnet | haiku | haiku |
+| gsd-integration-checker | sonnet | sonnet | haiku | haiku |
 
 ## Profile Philosophy
 
@@ -35,6 +35,10 @@ Model profiles control which Claude model each GSD agent uses. This allows balan
 - Sonnet for anything that writes code
 - Haiku for research and verification
 - Use when: conserving quota, high-volume work, less critical phases
+
+**basic** - No Opus or Sonnet usage
+- Haiku for anything
+- Use when: conserving quota aggressively with any volume work and any critical phases
 
 ## Resolution Logic
 

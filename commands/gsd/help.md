@@ -319,6 +319,7 @@ Quick switch model profile for GSD agents.
 - `quality` — Opus everywhere except verification
 - `balanced` — Opus for planning, Sonnet for execution (default)
 - `budget` — Sonnet for writing, Haiku for research/verification
+- `basic` — Haiku everywhere
 
 Usage: `/gsd:set-profile budget`
 

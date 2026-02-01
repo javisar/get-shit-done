@@ -40,9 +40,9 @@ Default to "balanced" if not set.
 
 **Model lookup table:**
 
-| Agent | quality | balanced | budget |
-|-------|---------|----------|--------|
-| gsd-debugger | opus | sonnet | sonnet |
+| Agent | quality | balanced | budget | basic |
+|-------|---------|----------|--------|-------|
+| gsd-debugger | opus | sonnet | sonnet | haiku |
 
 Store resolved model for use in Task calls below.
 

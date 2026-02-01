@@ -330,6 +330,8 @@ questions: [
       { label: "Balanced (Recommended)", description: "Sonnet for most agents — good quality/cost ratio" },
       { label: "Quality", description: "Opus for research/roadmap — higher cost, deeper analysis" },
       { label: "Budget", description: "Haiku where possible — fastest, lowest cost" }
+      ,
+      { label: "Basic", description: "Haiku for everything — the fastest, the lowest cost" }
     ]
   }
 ]
@@ -343,7 +345,7 @@ Create `.planning/config.json` with all settings:
   "depth": "quick|standard|comprehensive",
   "parallelization": true|false,
   "commit_docs": true|false,
-  "model_profile": "quality|balanced|budget",
+  "model_profile": "quality|balanced|budget|basic",
   "workflow": {
     "research": true|false,
     "plan_check": true|false,
@@ -388,11 +390,11 @@ Default to "balanced" if not set.
 
 **Model lookup table:**
 
-| Agent | quality | balanced | budget |
-|-------|---------|----------|--------|
-| gsd-project-researcher | opus | sonnet | haiku |
-| gsd-research-synthesizer | sonnet | sonnet | haiku |
-| gsd-roadmapper | opus | sonnet | sonnet |
+| Agent | quality | balanced | budget | basic |
+|-------|---------|----------|--------|-------|
+| gsd-project-researcher | opus | sonnet | haiku | haiku |
+| gsd-research-synthesizer | sonnet | sonnet | haiku | haiku |
+| gsd-roadmapper | opus | sonnet | sonnet | haiku |
 
 Store resolved models for use in Task calls below.
 

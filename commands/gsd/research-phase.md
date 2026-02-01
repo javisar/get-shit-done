@@ -43,9 +43,9 @@ Default to "balanced" if not set.
 
 **Model lookup table:**
 
-| Agent | quality | balanced | budget |
-|-------|---------|----------|--------|
-| gsd-phase-researcher | opus | sonnet | haiku |
+| Agent | quality | balanced | budget | basic |
+|-------|---------|----------|--------|-------|
+| gsd-phase-researcher | opus | sonnet | haiku | haiku |
 
 Store resolved model for use in Task calls below.
 

@@ -22,9 +22,9 @@ Default to "balanced" if not set.
 
 **Model lookup table:**
 
-| Agent | quality | balanced | budget |
-|-------|---------|----------|--------|
-| gsd-executor | opus | sonnet | sonnet |
+| Agent | quality | balanced | budget | basic |
+|-------|---------|----------|--------|-------|
+| gsd-executor | opus | sonnet | sonnet | haiku |
 
 Store resolved model for use in Task calls below.
 </step>

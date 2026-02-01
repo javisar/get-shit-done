@@ -81,7 +81,7 @@ If missing both ROADMAP.md and PROJECT.md: suggest `/gsd:new-project`.
 # [Project Name]
 
 **Progress:** [████████░░] 8/10 plans complete
-**Profile:** [quality/balanced/budget]
+**Profile:** [quality/balanced/budget/basic]
 
 ## Recent Work
 - [Phase X, Plan Y]: [what was accomplished - 1 line]

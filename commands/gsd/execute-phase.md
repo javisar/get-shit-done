@@ -49,10 +49,10 @@ Phase: $ARGUMENTS
 
    **Model lookup table:**
 
-   | Agent | quality | balanced | budget |
-   |-------|---------|----------|--------|
-   | gsd-executor | opus | sonnet | sonnet |
-   | gsd-verifier | sonnet | sonnet | haiku |
+   | Agent | quality | balanced | budget | basic |
+   |-------|---------|----------|--------|-------|
+   | gsd-executor | opus | sonnet | sonnet | haiku |
+   | gsd-verifier | sonnet | sonnet | haiku | haiku |
 
    Store resolved models for use in Task calls below.
 

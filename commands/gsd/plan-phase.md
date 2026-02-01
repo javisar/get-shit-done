@@ -60,11 +60,11 @@ Default to "balanced" if not set.
 
 **Model lookup table:**
 
-| Agent | quality | balanced | budget |
-|-------|---------|----------|--------|
-| gsd-phase-researcher | opus | sonnet | haiku |
-| gsd-planner | opus | opus | sonnet |
-| gsd-plan-checker | sonnet | sonnet | haiku |
+| Agent | quality | balanced | budget | basic |
+|-------|---------|----------|--------|-------|
+| gsd-phase-researcher | opus | sonnet | haiku | haiku |
+| gsd-planner | opus | opus | sonnet | haiku |
+| gsd-plan-checker | sonnet | sonnet | haiku | haiku |
 
 Store resolved models for use in Task calls below.
 

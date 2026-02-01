@@ -33,9 +33,9 @@ Default to "balanced" if not set.
 
 **Model lookup table:**
 
-| Agent | quality | balanced | budget |
-|-------|---------|----------|--------|
-| gsd-codebase-mapper | sonnet | haiku | haiku |
+| Agent | quality | balanced | budget | basic |
+|-------|---------|----------|--------|-------|
+| gsd-codebase-mapper | sonnet | haiku | haiku | haiku |
 
 Store resolved model for use in Task calls below.
 </step>
